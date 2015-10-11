@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Vodič kroz Zemun</title>
+		
+		
+		<script language="Javascript" type="text/javascript">
+			<!--
+			myPix = new Array("slike/1.jpg", "slike/2.jpg", "slike/3.jpg", "slike/4.jpg", "slike/5.jpg")
+			thisPic = 0
+			imgCt = myPix.length - 1
+		
+			function prethodna(){
+				if(document.images && thisPic > 0){
+					thisPic--
+				document.myPicture.src=myPix[thisPic]
+				}
+				else if(thisPic == 0){
+					thisPic=thisPic+4
+					document.myPicture.src=myPix[thisPic]
+				}
+			}
+			function naredna(){
+				if(document.images && thisPic < imgCt){
+					thisPic++
+				document.myPicture.src=myPix[thisPic]
+				}
+				else if(thisPic == imgCt){
+					thisPic=thisPic-4
+					document.myPicture.src=myPix[thisPic]
+				}
+			}
+			-->
+		</script>
+	
+	
+	
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />		
+		<meta name="description" content="Vodic kroz Zemun" />
+		<meta name="keywords" content="zemun,vodic,kafic,kafane,kafana,izlazak,vodic kroz zemun,zemunski vodic,restorani,proslave,sport,
+		soni,sony,gardos,biblioteka,skola,skole,bazeni,bazen,fast food,brza hrana,hrana,fakulteti,sale,igraonice,decije igraonice,bilijar,
+		kuglanje,stoni tenis,pikado,pice" />
+		<meta name="author" content="Uroš Gajić" />
+		<style type="text/css">
+		 
+		#pozadina{
+		position:absolute;
+		width: 820px;
+		text-align: center;
+		left:200px;
+		height: 240px;
+		}		
+		 
+	   #omotac {
+	   position:absolute;
+		width: 860px;
+		height: 1020px;
+		margin: 0 auto;
+		background-color: #fff;
+		top:250px;
+		left:200px;
+	   }
+	   #gore {
+		margin:0;
+		padding:0;
+		text-align: center;
+		background-color: rgb(0, 0, 200);
+		color: rgb(0, 200, 0);
+	   }
+	   #levo {
+	   position:absolute;
+		width: 410px;
+		float:left;
+		top:60px;
+	   }
+	   #desno {
+	   position:absolute;
+		top: 60px;
+		right:0px;
+		width:440;
+		float: right;
+		text-align:center;
+	   }
+	   #dole {
+	   position: absolute;
+	   top: 1200px;
+		clear: both;
+	   }
+		ul
+		{
+		float:left;
+		width:100%;
+		padding:0;
+		margin:0;
+		list-style-type:none;
+		}
+		a
+		{
+		float:center;
+		width:5.45em;
+		text-decoration:none;
+		color:white;
+		background-color:#ff3300;
+		padding:0.2em 0.6em;
+		border-right:1px solid orange;
+		}
+		a:hover {background-color:brown;}
+		li {display:inline;}
+		
+		
+		
+		#gore ul{
+		padding:0;
+		margin:0;
+		}
+		
+		#gore li{
+		position:relative;
+		float:left;
+		list-style:none;
+		background:rgba(0,0,0,1);
+		border-radius:5px;
+		}
+
+		#gore ul ul{
+		position:absolute;
+		visibility:hidden;
+		padding:0;
+		margin:0;
+		top:27px;
+		}
+
+		#gore ul li a{
+		text-align:center;
+		display:block;
+		text-decoration:none;
+		}
+
+		#gore ul li:hover{
+		background-color:rgba(128,128,128,1);
+		text-decoration:none;
+		}
+
+		#gore ul li:hover ul{
+		visibility:visible;
+		z-index:1;
+		}
+
+		#gore ul li:hover ul li a{
+		display:block;
+		background:#ff3300;
+		color:#ffffff;
+		text-align: center;
+		border-bottom: 1px solid #f2f2f2;
+		border-right: none;
+		}
+
+		#gore ul li:hover ul li a:hover {
+		background:brown;
+		color:#fff;
+		}
+		
+		table{
+		table-layout: fixed
+		}
+		
+		td, th{
+		border-bottom-style:dotted;
+		height: 65px;
+		width: 50 px;
+		word-wrap: break-word;
+		text-align:left;
+		color:white;
+		}
+		
+		
+		.okvir {
+		width:200px;
+		right:120px;
+		position:absolute;
+		border: 2px solid white ;
+		}
+		.okvir1 {
+		width:200px;
+		right:120px;
+		top:600px;
+		position:absolute;
+		border: 2px solid white ;
+		}
+		.okvir2 {
+		width:200px;
+		top:731px;
+		right:120px;
+		position:absolute;
+		border: 2px solid white ;
+		}
+		
+		</style>
+	<script src = "jquery-1.8.3.min.js"></script>
+</head>
+	<body bgcolor="c0c0c0" onload="rotate()">
+	<div id="pozadina">
+	<img src="sk.jpg" alt="Zemun"  />
+	</div>
+	
+	
+	<div id="omotac">
+	
+	<div id="gore">
+		<ul >
+		<li><a href="../../Home.html"> <font color="black"><b>Početna</b></font> </a></li>
+		<li><a href="#"> <font color="black"><b>Piće</b></font> </a>
+		<ul>
+			<li><a href="../../Kafici.html"><font color="black"><b>Kafići</b></font></a></li>
+			<li><a href="../../klubovi.html"><font color="black"><b>Klubovi</b></font></a></li>
+			<li><a href="../../kafane.html"><font color="black"><b>Kafane</b></font></a></li>
+		</ul>
+		</li>
+		<li><a href="#"><font color="black"><b> Hrana</b></font> </a>
+		<ul>
+			<li><a href="../../restorani.html"><font color="black"><b>Restorani</b></font></a></li>
+			<li><a href="../../brzaHrana.html"><font color="black"><b>Brza Hrana</b></font></a></li>
+		</ul>
+		</li>
+		<li><a href="#"><font color="black"><b>Ugostiteljstvo</b></font></font> </a>
+		<ul>
+			<li><a href="../../hoteli.html"><font color="black"><b>Hoteli</b></font></a></li>
+			<li><a href="../../moteli.html"><font color="black"><b>Moteli</b></font></a></li>
+			<li><a href="../../hosteli.html"><font color="black"><b>Hosteli</b></font></a></li>
+			<li><a href="../../apartmani.html"><font color="black"><b>Apartmani</b></font></a></li>
+		</ul>
+		</li>
+		<li><a href="#"> <font color="black"><b>Sport</b></font> </a>
+		<ul>
+			<li><a href="../../bazeni.html"><font color="black"><b>Bazeni</b></font></a></li>
+			<li><a href="../../sk.html"><font color="black"><b>Sportski Klubovi</b></font></a></li>
+			<li><a href="../../bzf.html"><font color="black"><b>Baloni, Sale..</b></font></a></li>
+			<li><a href="../../teretane.html"><font color="black"><b>Teretane</b></font></a></li>
+		</ul>
+		</li>
+		<li><a href="#"> <font color="black"><b>Razonoda</b></font> </a>
+		<ul>
+			<li><a href="../../bilijar.html"><font color="black"><b>Bilijar, kuglanje..</b></font></a></li>
+			<li><a href="../../soni.html"><font color="black"><b>Konzole, PC Igraonice..</b></font></a></li>
+			<li><a href="../../igraonice.html"><font color="black"><b>Dečije Igraonice</b></font></a></li>
+		</ul>
+		</li>
+		<li><a href="#"><font color="black"><b> Promocije </b></font></a></li>
+		<li><a href="../../kontakt.html"> <font color="black"><b>Kontakt </b></font></a></li>
+		</ul>
+	</div>
+		
+	<div id="desno">
+		<p align="center"> <img src="Slike/1.jpg" width="446" height="306" name="myPicture" alt="Slideshow"/>
+		<h2 align="center">
+		<a href="javascript:prethodna()">&lt; Prethodna slika</a>
+		<font face="chiller"  color="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>
+		<a href="javascript:naredna()">Naredna slika&gt;</a>
+		<br /><br /><br />
+		<font face="comic sans ms" size="6" color="white"> <u>Trenutne promocije:</u></font><br />
+		<div class="okvir">
+		<font face="comic sans ms" size="4" color="white"> Dres<br /> + <br /> Šal <br /><br /> 3500rsd;</font>
+		</div>
+		<div class="okvir1">
+		<font face="comic sans ms" size="4" color="white">Majica<br /> + <br /> Dukserica <br /><br /> 2500rsd;<br /></font>
+		</div>
+		<div class="okvir2">
+		<font face="comic sans ms" size="4" color="white"> <br /> Članarina<br /><br /> 2300rsd;</font><br />
+		</div>
+	</div>
+		
+	<div id="levo">
+		<h2><font size="12" face="comic sans ms" color="black"> FK "Lopta" </font></h2>
+		<p>
+		<font face="comic sans ms"  color="black" size="5"><u>Opis:</u></font>
+		<font face="comic sans ms" size="4"> FK "Lopta" je lokalni klub koji se nalazi u saveznoj ligi. Klub je najviše fokusiran na mlađe kategorije. Dođite i radite
+		sa trenerima koji su napravili mnoge svetske zvezde!</font>
+		<br><br><font face="comic sans ms"  color="black" size="5"><u>Adresa:</u></font>
+		<font  face="comic sans ms" size="4"> Zagorska 44</font>
+		<br><br><font face="comic sans ms"  color="black" size="5"><u>Telefon:</u></font>
+		<font face="comic sans ms" size="4"> 064/07 38 230</font>
+		<br><br><font face="comic sans ms"  color="black" size="5"><u>E-mail:</u></font>
+		<font face="comic sans ms" size="4"> fklopta@gmail.com</font>
+		<br><br><font face="comic sans ms"  color="black" size="5"><u>Website:</u></font>
+		<font face="comic sans ms" size="4"> www.fklopta.rs</font>
+		<br><br><br><br><font face="comic sans ms"  color="black" size="6"><u>Komentari:</u></font>
+	
+	
+	<form id='comment' method = 'post' action = "input.php">
+	Ime: </br><input maxlength="20" type = 'text' id='name' name='name'></br>
+	Komentar:</br><textarea maxlength="200" rows = "4" cols= "50" name='comment' id='comment' style = "resize: none"></textarea></br>
+	<input type = 'hidden' name ='page_id' value = "33">
+	<input type = 'submit' name='submit' value = "Postavi komentar">
+	</form>
+	<table width="450" id="results"></table>
+	<script type = "text/javascript">
+					$(document).ready(function() {
+									$("#results").load("output.php",{page_id:"33"});
+								});
+									
+	</script>
+		
+		</p>
+	</div>
+		
+	<div id="dole">
+		<font face="comic sans ms" color="white"> &copy; 2014 krozzemun.rs </font>
+	</div>
+	<img src="pozadina.jpg" width="860" height="1195" alt="Zemun"  />
+	</div>
+	</body>
+</html>
